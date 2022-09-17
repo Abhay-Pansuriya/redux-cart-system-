@@ -1,0 +1,25 @@
+svg {
+    cursor: pointer;
+}
+.addProduct{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding:10px ;
+    margin: 25px 35px 35px 0;
+    svg{
+        margin: 0 10px 0 0;
+    }
+    &:hover{
+        color:white !important;
+    }
+}
+
+.operation{
+    color: white;
+    &:hover{
+        color:white !important;
+    }
+}

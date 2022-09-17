@@ -1,9 +1,4 @@
-import React from 'react'
-
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
-
+import { ToastContainer } from 'react-toastify'
+import RouterComp from './Routes/Routes'
+const App = () => <><RouterComp /><ToastContainer /></>
 export default App
